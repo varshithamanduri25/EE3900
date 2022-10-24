@@ -18,5 +18,4 @@ plt.plot(vc1[:,0], vc1[:,1], '.')
 plt.xlabel('t (s)')
 plt.ylabel('$v_{C_0}(t)$ (V)')
 plt.grid()
-plt.legend(['Simulation', 'Analysis'])
-plt.savefig('../figs/2_6.png')
+plt.show
