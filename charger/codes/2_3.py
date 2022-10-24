@@ -1,7 +1,5 @@
 import numpy as np
 from matplotlib import pyplot as plt
-import subprocess
-import shlex
 
 A = 12
 f = 50
@@ -23,5 +21,4 @@ plt.legend(['Analysis', 'Simulation'])
 plt.grid()
 plt.xlabel('t')
 plt.ylabel('x(t)')
-plt.savefig('../figs/2_3.png')
-subprocess.run(shlex.split('sh gopen.sh ../figs/2_3.png'))
+plt.show
